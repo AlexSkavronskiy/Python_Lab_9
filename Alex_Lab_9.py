@@ -14,7 +14,6 @@ def searchdd(serchText):
 
 app = Flask(__name__)
 
-
 try:
     engine = db.create_engine('mysql+pymysql://root:ason121245@localhost:3306/my_database')
     connection = engine.connect()
